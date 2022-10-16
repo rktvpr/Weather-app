@@ -14,7 +14,7 @@
 
 <body class="bg-secondary">
     <header>
-        <h1 class="w-100 lh-base text-center bg-dark text-white" id="head">Rick's Weather Tracker</h1>
+        <h1 class="w-100 lh-base text-center bg-dark text-white" id="head">RKT's Weather Tracker</h1>
     </header>
 
     <div class="container">
@@ -30,11 +30,13 @@
                         </button>
                     </div>
                 </div>
-                <form id="recent-searches"></form>
+                <button class="btn-light rounded" id="clear">Clear History</button>
+                <form id="recent-searches">
+                </form>
             </div>
             <div class="col-8">
                 <div class="row">
-                    <div class="col-12 border border-dark m-2 rounded">
+                    <div class="col-12 border bg-dark text-light border-dark m-2 rounded">
                         <div class="row">
                             <div class="col-12">
                                 <span id="location" class="location text-center"></span>
@@ -68,11 +70,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col forecast bg-dark text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-dark text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-dark text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-dark text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-dark text-white ml-3 mb-3 rounded"></div>
+                    <div class="col forecast bg-dark text-white m-3 font-weight-bold rounded"></div>
+                    <div class="col forecast bg-dark text-white m-3 font-weight-bold rounded"></div>
+                    <div class="col forecast bg-dark text-white m-3 font-weight-bold rounded"></div>
+                    <div class="col forecast bg-dark text-white m-3 font-weight-bold rounded"></div>
+                    <div class="col forecast bg-dark text-white m-3 font-weight-bold rounded"></div>
                 </div>
             </div>
         </div>
