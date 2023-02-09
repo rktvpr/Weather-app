@@ -12,7 +12,7 @@ click the history items to navigate to your previous searches,
 click clear history to wipe the page of your previous searches.
 
 ## Usage
-
+[Link-to-page]( https://rktvpr.github.io/Weather-app/)
 Open this link to view the website
 ![alt text](/images/Weather-app.png)
 
